@@ -1,0 +1,269 @@
+
+415 Unsupported Media Type
+Body is missing
+
+{
+    "code": 415,
+    "type": "unknown",
+    "message": "com.sun.jersey.api.MessageException: A message body reader for Java class io.swagger.sample.model.Pet, and Java type class io.swagger.sample.model.Pet, and MIME media type application/octet-stream was not found.\nThe registered message body readers compatible with the MIME media type are:\n*/* ->\n  com.sun.jersey.core.impl.provider.entity.FormProvider\n  com.sun.jersey.core.impl.provider.entity.StringProvider\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.ReaderProvider\n  com.sun.jersey.core.impl.provider.entity.DocumentProvider\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader\n  com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader\n  com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONArrayProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONObjectProvider$General\n  com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider\n  com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General\n  com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General\n  com.sun.jersey.core.impl.provider.entity.EntityHolderReader\n  com.sun.jersey.json.impl.provider.entity.JSONRootElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JSONListElementProvider$General\n  com.sun.jersey.json.impl.provider.entity.JacksonProviderProxy\napplication/octet-stream ->\n  com.sun.jersey.core.impl.provider.entity.ByteArrayProvider\n  com.sun.jersey.core.impl.provider.entity.FileProvider\n  com.sun.jersey.core.impl.provider.entity.InputStreamProvider\n  com.sun.jersey.core.impl.provider.entity.DataSourceProvider\n  com.sun.jersey.core.impl.provider.entity.RenderedImageProvider\n"
+}
+
+id :-
+9223372016900014858
+9223372016900014868
+9223372016900014880
+9223372016900014888
+
+https://petstore.swagger.io/v2/pet/{petId}
+404 Not Found 
+Client Side Error
+
+{
+    "code": 404,
+    "type": "unknown",
+    "message": "java.lang.NumberFormatException: For input string: \"{petId}\""
+}
+
+GET Request
+https://petstore.swagger.io/v2/pet/9223372016900014858
+200 OK
+
+{
+    "id": 9223372016900014858,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+https://petstore.swagger.io/v2/pet/922337201690001462612345
+Error in id 
+
+Could not get response
+Error: read ECONNRESET | View in Console What's wrong
+Learn more about troubleshooting API requests
+
+PUT Request
+https://petstore.swagger.io/v2/pet
+
+200 OK
+Body 
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "sheru"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available now"
+}
+
+Request
+{
+    "id": 9223372016900015818,
+    "category": {
+        "id": 0,
+        "name": "sheru"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available now"
+}
+
+GET Request
+https://petstore.swagger.io/v2/pet/9223372016900014858
+
+Request
+{
+    "id": 9223372016900014858,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+
+DELETE Request
+https://petstore.swagger.io/v2//pet/9223372016900014858
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<apiResponse>
+    <message>null for uri: http://petstore.swagger.io/v2//pet/9223372016900014858</message>
+    <type>unknown</type>
+</apiResponse>
+
+GET Request 
+https://petstore.swagger.io/v2//pet/9223372016900014858
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<apiResponse>
+    <message>null for uri: http://petstore.swagger.io/v2//pet/9223372016900014858</message>
+    <type>unknown</type>
+</apiResponse>
+
+POST Request for placing order
+https://petstore.swagger.io/v2/store/order
+Status code 200 OK
+Body
+{
+  "id": 0,
+  "petId": 0,
+  "quantity": 0,
+  "shipDate": "2024-11-30T06:56:32.454Z",
+  "status": "placed",
+  "complete": true
+}
+
+Request
+{
+    "id": 85521521,
+    "petId": 0,
+    "quantity": 0,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
+To place an order
+Status code 200 OK
+Example 1
+85521521 -> 10
+Body
+{
+    "id": 85521563,
+    "petId": 0,
+    "quantity": 10,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+Request
+{
+    "id": 85521563,
+    "petId": 0,
+    "quantity": 10,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
+Example 2
+85521569 -> 50
+Body
+{
+  "id": 0,
+  "petId": 0,
+  "quantity": 50,
+  "shipDate": "2024-11-30T06:56:32.454Z",
+  "status": "placed",
+  "complete": true
+}
+Request
+{
+    "id": 85521569,
+    "petId": 0,
+    "quantity": 50,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
+Example 3
+Status code
+85521574 -> 100
+{
+  "id": 0,
+  "petId": 0,
+  "quantity": 100,
+  "shipDate": "2024-11-30T06:56:32.454Z",
+  "status": "placed",
+  "complete": true
+}
+Request
+{
+    "id": 85521574,
+    "petId": 0,
+    "quantity": 100,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
+
+To Get order details
+Example 1
+https://petstore.swagger.io/v2/store/order/85521563
+Status code -> 200 OK
+Request
+{
+    "id": 85521563,
+    "petId": 0,
+    "quantity": 10,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
+Example 2
+https://petstore.swagger.io/v2/store/order/85521569
+Status code -> 200 OK
+Request
+{
+    "id": 85521569,
+    "petId": 0,
+    "quantity": 50,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
+Example 3
+https://petstore.swagger.io/v2/store/order/85521574
+Status code -> 200 OK
+Request
+{
+    "id": 85521574,
+    "petId": 0,
+    "quantity": 100,
+    "shipDate": "2024-11-30T06:56:32.454+0000",
+    "status": "placed",
+    "complete": true
+}
+
