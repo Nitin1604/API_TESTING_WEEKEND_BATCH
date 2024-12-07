@@ -1,0 +1,53 @@
+
+Base url for GitHub
+https://api.github.com
+
+End points
+/user/repos
+
+Full url
+https://api.github.com/user/repos
+
+Post Request
+https://api.github.com/user/repos
+
+Body and then selecting raw, paste this code in body
+{
+    "name":"new repo",
+    "description": "this is my first repo"
+}
+
+Click on Send button to get response
+{
+    "message": "Requires authentication",
+    "documentation_url": "https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user",
+    "status": "401"
+}
+
+Status code received
+401 Unauthorized
+
+We have not given authorized method to this method.
+
+Bear Token
+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
+
+Step to access bear token
+1) Click on GitHub profile at top right corner.
+2) Click on Settings.
+3) Click on Developer settings.
+4) Click on Personal access tokens dropdown.
+5) Click on Token (classic).
+6) Click on another dropdown.
+7) Click on second dropdown items.
+8) A new page was opened with heading as "New personal access token (classic)" 
+9) Give any name in the note whether you want
+10) Click on Expiration dropdown list and select the expiration date according to your choices.
+11) Check the checkbox for delete_repo  Delete repositories from the table name "Select scopes".
+12) At last click on Generate token button at the bottom.
+13) Copy the generated token and immediately copy it and it will not available after reload the page.
+14) Paste the generated token in the Postman application.
+15) Paste this generated token under the dropdown Auth Type and then select Bearer Token and finally paste the generated token in right side input fields named as Token.
+16) Click the Send button to get response.
+
+
