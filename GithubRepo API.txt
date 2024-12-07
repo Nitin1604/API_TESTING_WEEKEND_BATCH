@@ -1,4 +1,3 @@
-
 Base url for GitHub
 https://api.github.com
 
@@ -49,5 +48,3 @@ Step to access bear token
 14) Paste the generated token in the Postman application.
 15) Paste this generated token under the dropdown Auth Type and then select Bearer Token and finally paste the generated token in right side input fields named as Token.
 16) Click the Send button to get response.
-
-
