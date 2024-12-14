@@ -1,4 +1,3 @@
-
 First copy and paste the base url i.e https://api.github.com
 Then insert end points -> /user/repos
 
