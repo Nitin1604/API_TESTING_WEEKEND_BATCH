@@ -1,0 +1,9 @@
+Test Authentication
+
+Make a simple GET request to https://api.github.com/user with your token in the Authorization header to verify your token is valid.
+If successful, you will receive your user details in the response.
+Reattempt the DELETE Request
+
+Use the URL:
+https://api.github.com/repos/Nitin1604/repository3
+Include the proper Authorization header.
