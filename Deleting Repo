@@ -1,0 +1,19 @@
+This is the url of the repository that you want to delete
+https://api.github.com/repos/Nitin1604/repository3
+
+Go to Authorization and paste the token generated for repository3 infront of Token Text field
+
+Test Authentication
+
+Make a simple GET request to https://api.github.com/user with your token in the Authorization header to verify your token is valid.
+If successful, you will receive your user details in the response.
+Reattempt the DELETE Request
+
+Use the URL:
+https://api.github.com/repos/Nitin1604/repository3
+Include the proper Authorization header.
+Verify Admin Access
+
+If you’re part of a team or organization, ensure you have admin access to the repository.
+
+Repository will be deleted
