@@ -1,0 +1,31 @@
+Step 1) Open terminal and paste this command --> npm install -g json-server
+          After running this command in the terminal then this message comes
+
+	 added 45 packages in 8s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+Step 2) Paste this command in the terminal then --> json-server C:\Users\ACER\Desktop\employees.json
+        C:\Users\ACER\Desktop\employees.json --> This is the path of your json file.
+  
+       After running this command in the terminal then this message comes
+
+	JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching C:\Users\ACER\Desktop\employees.json...
+
+♡( ◡‿◡ )
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/employees
+
+
+Step 3) Click on endpoints and it will open in the browser. It will show all the json content whether you have written.
+ 
